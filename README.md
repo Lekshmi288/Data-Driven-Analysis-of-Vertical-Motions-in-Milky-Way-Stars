@@ -6,50 +6,63 @@ This project applies statistical analysis and data-driven modeling to study the 
 Key Questions
 
   (1) Is the Radcliffe Wave a kinematically coherent structure?
-        Can we detect vertical oscillations in the motion of young stars that align with the RW?
+             Can we detect vertical oscillations in the motion of young stars that align with the RW?
+             
   (2) What caused these vertical motions?
-        Could they be triggered by external forces, such as the impact of a satellite galaxy?
+             Could they be triggered by external forces, such as the impact of a satellite galaxy?
 
 Skills & Techniques Used
 ------------------------
 
 ✅ Large-Scale Data Analysis:
        * Analyzed stellar motion data from Gaia and other astronomical surveys (3,650,719 stars).
+       
 ✅ Statistical Modeling:
        * Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
        * Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
+       
 ✅ Data Cleaning & Preprocessing:
        * Filtered and selected high-quality star samples with parallax to parallax uncertainty ratio (ϖ/σϖ) > 5. 
        * Performed crossmatching between various stellar catalogues to remove the duplicates if any.
        * Converted sky coordinates to 3D Galactic Cartesian coordinates using the Astropy package for accurate positional representation and for the ease of understanding.
        * For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
+       
 ✅ Comparative Analysis:
        * Used older stars as a control sample to account for the effects of dynamical heating.
+       
 ✅ N-body Simulations:
        * Modeled the effect of a Sagittarius-like satellite impact on galactic disk kinematics.
 
 Data Sources
 -----------
   * Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
+    
   * Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
+    
   * Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
 
 Choosing the right dataset is critical to ensuring a meaningful analysis. Since we aimed to detect kinematic oscillations, we needed:
 
 🔹 Young stars close to their parent molecular clouds (tracing recent motions).
+
 🔹 A control sample of older stars to separate organized motion from random dispersion (accounting for dynamical heating).
+
 🔹 Large-scale datasets with proper motion measurements but missing radial velocities, requiring mathematical approximations to estimate vertical motion.
 
 Challenges & Solutions
 ----------------------
 🔹 Missing Radial Velocities for Young Stars → Used an approximation from Drimmel et al. (2000) for vertical velocity estimation.
+
 🔹 Separating Ordered Motion from Random Motion → Compared young star kinematics with an older control population to isolate coherent trends.
+
 🔹 Complex Coordinate Transformations → Converted observed velocities into Galactic coordinate systems (cylindrical & Cartesian).
 
 Key Findings
 ------------
 📌 Discovered a distinct kinematic wave in the Milky Way in the young stars, separate from the known Galactic warp.
+
 📌 The kinematic wave exhibits an oscillation amplitude and extent that vary with the age of the stellar population, with younger stars showing the largest perturbations. This suggests that the vertical motions are likely the result of a recent perturbation in the Milky Way's disk. 
+
 📌 Simulations suggest a satellite galaxy impact (like Sagittarius) could be linked to this wave, but open questions remain.
 
 Relevance to Data Science
