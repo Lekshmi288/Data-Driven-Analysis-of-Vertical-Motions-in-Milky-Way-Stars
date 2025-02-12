@@ -23,6 +23,8 @@ Skills & Techniques Used
   --- Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
        
   --- Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
+
+  --- Performed bootstrapping to estimate uncertainties in the median vertical velocities and assess the robustness of our results. This method provided statistical confidence in detecting vertical oscillations and ensured that our findings are statistically significant.
        
 ✅ Data Cleaning & Preprocessing:
 
