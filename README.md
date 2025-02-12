@@ -28,7 +28,7 @@ Skills & Techniques Used
        
 ✅ Data Cleaning & Preprocessing:
 
-   --- Filtered and selected high-quality star samples with parallax to parallax uncertainty ratio (ϖ/σϖ) > 5. 
+   --- Filtered and selected high-quality star samples by applying quality cuts. 
        
    --- Performed crossmatching between various stellar catalogues to remove the duplicates if any.
        
