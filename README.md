@@ -46,11 +46,11 @@ Skills & Techniques Used
 
 Data Sources
 -----------
-  * Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
-    
-  * Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
-    
-  * Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
+🔹 Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
+
+🔹 Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
+
+🔹 Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
 
 Choosing the right dataset is critical to ensuring a meaningful analysis. Since we aimed to detect kinematic oscillations, we needed:
 
