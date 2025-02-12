@@ -1,9 +1,63 @@
 # Data-Driven-Analysis-of-Vertical-Motions-in-Milky-Way-Stars
 
-The Radcliffe Wave (RW) is a recently discovered sinusoidal vertical feature of dense gas near the Sun, aligned with the Local Arm of the Milky Way. However, the origin of its vertical oscillation remains unclear. This project applies statistical analysis and N-body simulations to study the kinematics of the RW using young stars and open clusters as tracers.
+Overview
+--------
+This project applies statistical analysis and data-driven modeling to study the vertical motions of young stars in the Milky Way. The goal is to investigate whether the Radcliffe Wave (RW)—a recently discovered large-scale gas structure—also has a corresponding kinematic signature in stellar motions. By analyzing stellar position and velocity data from large-scale sky surveys, we explore whether external perturbations, such as satellite galaxy interactions, could have influenced these vertical oscillations.
+Key Questions
 
-We analyze vertical velocity trends along and beyond the RW, revealing a distinct kinematic wave in the Milky Way. Our results show that the amplitude of oscillation depends on the age of the stellar population, suggesting a complex dynamical history. By comparing our findings with N-body simulations, we investigate whether a satellite galaxy—similar in mass to the Sagittarius dwarf—could have triggered this kinematic feature. While the RW aligns with a spiral density wave induced by the satellite interaction, the observed kinematic wave exhibits a radial propagation pattern, raising new questions about its origin.
+  (1) Is the Radcliffe Wave a kinematically coherent structure?
+        Can we detect vertical oscillations in the motion of young stars that align with the RW?
+  (2) What caused these vertical motions?
+        Could they be triggered by external forces, such as the impact of a satellite galaxy?
 
-This study leverages large-scale astronomical datasets, statistical modeling, and N-body simulations to explore the dynamics of the Galactic disk. Future Gaia data releases (DR3 & DR4) may provide further constraints on these kinematic structures, potentially confirming the existence of a predicted vertical velocity dipole.
+Skills & Techniques Used
+------------------------
+
+✅ Large-Scale Data Analysis:
+       * Analyzed stellar motion data from Gaia and other astronomical surveys (3,650,719 stars).
+✅ Statistical Modeling:
+       * Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
+       * Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
+✅ Data Cleaning & Preprocessing:
+       * Filtered and selected high-quality star samples with parallax to parallax uncertainty ratio (ϖ/σϖ) > 5. 
+       * Performed crossmatching between various stellar catalogues to remove the duplicates if any.
+       * Converted sky coordinates to 3D Galactic Cartesian coordinates using the Astropy package for accurate positional representation and for the ease of understanding.
+       * For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
+✅ Comparative Analysis:
+       * Used older stars as a control sample to account for the effects of dynamical heating.
+✅ N-body Simulations:
+       * Modeled the effect of a Sagittarius-like satellite impact on galactic disk kinematics.
+
+Data Sources
+-----------
+  * Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
+  * Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
+  * Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
+
+Choosing the right dataset is critical to ensuring a meaningful analysis. Since we aimed to detect kinematic oscillations, we needed:
+
+🔹 Young stars close to their parent molecular clouds (tracing recent motions).
+🔹 A control sample of older stars to separate organized motion from random dispersion (accounting for dynamical heating).
+🔹 Large-scale datasets with proper motion measurements but missing radial velocities, requiring mathematical approximations to estimate vertical motion.
+
+Challenges & Solutions
+----------------------
+🔹 Missing Radial Velocities for Young Stars → Used an approximation from Drimmel et al. (2000) for vertical velocity estimation.
+🔹 Separating Ordered Motion from Random Motion → Compared young star kinematics with an older control population to isolate coherent trends.
+🔹 Complex Coordinate Transformations → Converted observed velocities into Galactic coordinate systems (cylindrical & Cartesian).
+
+Key Findings
+------------
+📌 Discovered a distinct kinematic wave in the Milky Way in the young stars, separate from the known Galactic warp.
+📌 The kinematic wave exhibits an oscillation amplitude and extent that vary with the age of the stellar population, with younger stars showing the largest perturbations. This suggests that the vertical motions are likely the result of a recent perturbation in the Milky Way's disk. 
+📌 Simulations suggest a satellite galaxy impact (like Sagittarius) could be linked to this wave, but open questions remain.
+
+Relevance to Data Science
+-------------------------
+This project showcases advanced data analysis, statistical modeling, and large-scale dataset handling—skills that are directly applicable to data science. By leveraging observational datasets, transforming noisy data, and performing statistical analysis, we extract meaningful insights from complex real-world data.
 
 The published paper is available at : https://www.aanda.org/articles/aa/full_html/2022/04/aa42899-21/aa42899-21.html
+
+References:
+
+[1] Alves, J., Zucker, C., Goodman, A.A. et al. A Galactic-scale gas wave in the solar neighbourhood. Nature 578, 237–239 (2020). https://doi.org/10.1038/s41586-019-1874-z
