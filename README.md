@@ -43,6 +43,18 @@ Skills & Techniques Used
 ✅ N-body Simulations:
 
    --- Modeled the effect of a Sagittarius-like satellite impact on galactic disk kinematics.
+   
+✅ Python Packages Used:
+
+  --- Pandas: Utilized for data manipulation and preprocessing large-scale datasets.
+  
+  --- NumPy: Applied for numerical operations and handling large arrays of data.
+  
+  --- SciPy: Used for statistical analysis such as computing bidimensional binned statistic which in this case is Median vertical velocity of stars.
+  
+  --- Matplotlib and Seaborn: Employed for data visualization and creating plots to analyze kinematic signatures.
+  
+  --- Astropy: Used for transforming sky coordinates and distances into 3D Galactic Cartesian coordinates.
 
 Data Sources
 -----------
