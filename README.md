@@ -2,14 +2,17 @@
 
 Overview
 --------
-This project applies statistical analysis and data-driven modeling to study the vertical motions of young stars in the Milky Way. The goal is to investigate whether the Radcliffe Wave (RW)—a recently discovered large-scale gas structure—also has a corresponding kinematic signature in stellar motions. By analyzing stellar position and velocity data from large-scale sky surveys, we explore whether external perturbations, such as satellite galaxy interactions, could have influenced these vertical oscillations.
-Key Questions
+This project (Thulasidharan et al. 2022 (A&A)) applies statistical analysis and data-driven modeling to study the vertical motions of young stars in the Milky Way. The goal is to investigate whether the Radcliffe Wave (RW)—a recently discovered large-scale gas structure—also has a corresponding kinematic signature in stellar motions. By analyzing stellar position and velocity data from large-scale sky surveys, we explore whether external perturbations, such as satellite galaxy interactions, could have influenced these vertical oscillations. 
+
+Key Questions:
 
   (1) Is the Radcliffe Wave a kinematically coherent structure?
              Can we detect vertical oscillations in the motion of young stars that align with the RW?
              
   (2) What caused these vertical motions?
              Could they be triggered by external forces, such as the impact of a satellite galaxy?
+
+The peer-reviewed publication is available at : https://www.aanda.org/articles/aa/full_html/2022/04/aa42899-21/aa42899-21.html
 
 Skills & Techniques Used
 ------------------------
@@ -91,8 +94,6 @@ Key Findings
 Relevance to Data Science
 -------------------------
 This project showcases advanced data analysis, statistical modeling, and large-scale dataset handling—skills that are directly applicable to data science. By leveraging observational datasets, transforming noisy data, and performing statistical analysis, we extract meaningful insights from complex real-world data.
-
-The published paper is available at : https://www.aanda.org/articles/aa/full_html/2022/04/aa42899-21/aa42899-21.html
 
 References:
 
