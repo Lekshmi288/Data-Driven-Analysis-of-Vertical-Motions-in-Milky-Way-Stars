@@ -16,45 +16,45 @@ Skills & Techniques Used
 
 ✅ Large-Scale Data Analysis:
 
-  --- Analyzed stellar motion data from Gaia and other astronomical surveys (3,650,719 stars).
+  ◆ Analyzed stellar motion data from Gaia and other astronomical surveys (3,650,719 stars).
        
 ✅ Statistical Modeling:
 
-  --- Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
+  ◆ Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
        
-  --- Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
+  ◆ Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
 
-  --- Performed bootstrapping to estimate uncertainties in the median vertical velocities and assess the robustness of our results. This method provided statistical confidence in detecting vertical oscillations and ensured that our findings are statistically significant.
+  ◆ Performed bootstrapping to estimate uncertainties in the median vertical velocities and assess the robustness of our results. This method provided statistical confidence in detecting vertical oscillations and ensured that our findings are statistically significant.
        
 ✅ Data Cleaning & Preprocessing:
 
-   --- Filtered and selected high-quality star samples by applying quality cuts. 
+   ◆ Filtered and selected high-quality star samples by applying quality cuts. 
        
-   --- Performed crossmatching between various stellar catalogues to remove the duplicates if any.
+   ◆ Performed crossmatching between various stellar catalogues to remove the duplicates if any.
        
-   --- Converted sky coordinates to 3D Galactic Cartesian coordinates using the Astropy package for accurate positional representation and for the ease of understanding.
+   ◆ Converted sky coordinates to 3D Galactic Cartesian coordinates using the Astropy package for accurate positional representation and for the ease of understanding.
        
-   --- For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
+   ◆ For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
        
 ✅ Comparative Analysis:
 
-   --- Used older stars as a control sample to account for the effects of dynamical heating.
+   ◆ Used older stars as a control sample to account for the effects of dynamical heating.
        
 ✅ N-body Simulations:
 
-   --- Modeled the effect of a Sagittarius-like satellite impact on galactic disk kinematics.
+   ◆ Modeled the effect of a Sagittarius-like satellite impact on galactic disk kinematics.
    
 ✅ Python Packages Used:
 
-  --- Pandas: Utilized for data manipulation and preprocessing large-scale datasets.
+  ◆ Pandas: Utilized for data manipulation and preprocessing large-scale datasets.
   
-  --- NumPy: Applied for numerical operations and handling large arrays of data.
+  ◆ NumPy: Applied for numerical operations and handling large arrays of data.
   
-  --- SciPy: Used for statistical analysis such as computing bidimensional binned statistic which in this case is Median vertical velocity of stars.
+  ◆ SciPy: Used for statistical analysis such as computing bidimensional binned statistic which in this case is Median vertical velocity of stars.
   
-  --- Matplotlib and Seaborn: Employed for data visualization and creating plots to analyze kinematic signatures.
+  ◆ Matplotlib and Seaborn: Employed for data visualization and creating plots to analyze kinematic signatures.
   
-  --- Astropy: Used for transforming sky coordinates and distances into 3D Galactic Cartesian coordinates.
+  ◆ Astropy: Used for transforming sky coordinates and distances into 3D Galactic Cartesian coordinates.
 
 Data Sources
 -----------
