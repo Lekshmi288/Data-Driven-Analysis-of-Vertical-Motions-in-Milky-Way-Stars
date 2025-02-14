@@ -2,7 +2,7 @@
 
 Overview
 --------
-This project (Thulasidharan et al. 2022 (A&A)) applies statistical analysis and data-driven modeling to study the vertical motions of young stars in the Milky Way. The goal is to investigate whether the Radcliffe Wave (RW)—a recently discovered large-scale gas structure—also has a corresponding kinematic signature in stellar motions. By analyzing stellar position and velocity data from large-scale sky surveys, we explore whether external perturbations, such as satellite galaxy interactions, could have influenced these vertical oscillations. 
+This project (*Thulasidharan et al. 2022 (A&A)*) applies statistical analysis and data-driven modeling to study the vertical motions of young stars in the Milky Way. The goal is to investigate whether the Radcliffe Wave (RW)—a recently discovered large-scale gas structure—also has a corresponding kinematic signature in stellar motions. By analyzing stellar position and velocity data from large-scale sky surveys, we explore whether external perturbations, such as satellite galaxy interactions, could have influenced these vertical oscillations. 
 
 Key Questions:
 
