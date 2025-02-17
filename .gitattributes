@@ -1,2 +1,4 @@
 Cleaned_Data/UMS_Stars_cleaned.csv filter=lfs diff=lfs merge=lfs -text
 Cleaned_Data/Giant_Stars_cleaned.csv filter=lfs diff=lfs merge=lfs -text
+Cleaned_Data/OB_Stars_cleaned.csv filter=lfs diff=lfs merge=lfs -text
+Cleaned_Data/Open_Clusters_cleaned.csv filter=lfs diff=lfs merge=lfs -text
