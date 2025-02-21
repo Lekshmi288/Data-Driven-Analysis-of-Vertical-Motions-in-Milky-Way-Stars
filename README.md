@@ -83,7 +83,6 @@ Challenges & Solutions
 
 🔹 Separating Ordered Motion from Random Motion → Compared young star kinematics with an older control population to isolate coherent trends.
 
-🔹 Complex Coordinate Transformations → Converted observed velocities into Galactic coordinate systems (cylindrical & Cartesian).
 
 Key Findings
 ------------
