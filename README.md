@@ -38,6 +38,8 @@ Skills & Techniques Used
    ◆ Converted sky coordinates to 3D Galactic Cartesian coordinates using the Astropy package for accurate positional representation and for the ease of understanding.
        
    ◆ For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
+   
+   ◆ Applied Gaussian smoothing to better visualize trends and reduce noise in kinematic data, helping to highlight the underlying patterns in vertical motions which aided in the discovery of a new kinematic wave in the Milky Way.
        
 ✅ Comparative Analysis:
 
