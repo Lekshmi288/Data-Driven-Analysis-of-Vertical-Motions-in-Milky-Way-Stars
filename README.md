@@ -20,15 +20,7 @@ Skills & Techniques Used
 ✅ Large-Scale Data Analysis:
 
   ◆ Analyzed stellar motion data from Gaia and other astronomical surveys (3,650,719 stars).
-       
-✅ Statistical Modeling:
-
-  ◆ Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
-       
-  ◆ Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
-
-  ◆ Performed bootstrapping to estimate uncertainties in the median vertical velocities and assess the robustness of our results. This method provided statistical confidence in detecting vertical oscillations and ensured that our findings are statistically significant.
-       
+  
 ✅ Data Cleaning & Preprocessing:
 
    ◆ Filtered and selected high-quality star samples by applying quality cuts. 
@@ -40,6 +32,14 @@ Skills & Techniques Used
    ◆ For young stars without line-of-sight velocities, derived vertical velocities using just their proper motions, accounting for Galactic rotation and solar motion using Drimmel et al. (2000) approximations.
    
    ◆ Applied Gaussian smoothing to better visualize trends and reduce noise in kinematic data, helping to highlight the underlying patterns in vertical motions which aided in the discovery of a new kinematic wave in the Milky Way.
+       
+✅ Statistical Modeling:
+
+  ◆ Applied velocity transformations, kinematic approximations, and data-driven modeling to infer vertical motions. 
+       
+  ◆ Performed Pearson correlation tests to assess the relationship between the signatures of stellar vertical motions across various catalogues and to determine their statistical significance.
+
+  ◆ Performed bootstrapping to estimate uncertainties in the median vertical velocities and assess the robustness of our results. This method provided statistical confidence in detecting vertical oscillations and ensured that our findings are statistically significant.
        
 ✅ Comparative Analysis:
 
