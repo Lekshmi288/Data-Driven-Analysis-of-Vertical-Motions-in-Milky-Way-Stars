@@ -63,34 +63,34 @@ Skills & Techniques Used
 
 Data Sources
 -----------
-🔹 Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
+◆ Young Stellar Samples: Open clusters (Cantat-Gaudin et al. 2020), OB stars (González et al. 2021), Upper Main Sequence stars (Poggio et al. 2021).
 
-🔹 Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
+◆ Control Sample: Giant stars (Poggio et al. 2018) to compare with dynamically heated older stars.
 
-🔹 Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
+◆ Observational Surveys: Gaia DR2/DR3 for stellar positions and motions.
 
 Choosing the right dataset is critical to ensuring a meaningful analysis. Since we aimed to detect kinematic oscillations, we needed:
 
-🔹 Young stars close to their parent molecular clouds (tracing recent motions).
+◆ Young stars close to their parent molecular clouds (tracing recent motions).
 
-🔹 A control sample of older stars to separate organized motion from random dispersion (accounting for dynamical heating).
+◆ A control sample of older stars to separate organized motion from random dispersion (accounting for dynamical heating).
 
-🔹 Large-scale datasets with proper motion measurements but missing radial velocities, requiring mathematical approximations to estimate vertical motion.
+◆ Large-scale datasets with proper motion measurements but missing radial velocities, requiring mathematical approximations to estimate vertical motion.
 
 Challenges & Solutions
 ----------------------
-🔹 Missing Radial Velocities for Young Stars → Used an approximation from Drimmel et al. (2000) for vertical velocity estimation.
+◆ Missing Radial Velocities for Young Stars → Used an approximation from Drimmel et al. (2000) for vertical velocity estimation.
 
-🔹 Separating Ordered Motion from Random Motion → Compared young star kinematics with an older control population to isolate coherent trends.
+◆ Separating Ordered Motion from Random Motion → Compared young star kinematics with an older control population to isolate coherent trends.
 
 
 Key Findings
 ------------
-📌 Discovered a distinct kinematic wave in the Milky Way in the young stars, separate from the known Galactic warp.
+◆ Discovered a distinct kinematic wave in the Milky Way in the young stars, separate from the known Galactic warp.
 
-📌 The kinematic wave exhibits an oscillation amplitude and extent that vary with the age of the stellar population, with younger stars showing the largest perturbations. This suggests that the vertical motions are likely the result of a recent perturbation in the Milky Way's disk. 
+◆ The kinematic wave exhibits an oscillation amplitude and extent that vary with the age of the stellar population, with younger stars showing the largest perturbations. This suggests that the vertical motions are likely the result of a recent perturbation in the Milky Way's disk. 
 
-📌 Simulations suggest a satellite galaxy impact (like Sagittarius) could be linked to this wave, but open questions remain.
+◆ Simulations suggest a satellite galaxy impact (like Sagittarius) could be linked to this wave, but open questions remain.
 
 Relevance to Data Science
 -------------------------
